@@ -1,0 +1,17 @@
+*   {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    }
+
+:root {
+    --pri-color:#5465ff;
+    --sec-color: #788bff;
+    --third-color: #9bb1ff;
+    --four-color: #bfd7ff;
+    --five-color: #e2fdff;
+}
+
