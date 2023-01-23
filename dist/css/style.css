@@ -31,3 +31,55 @@
     text-align: center;
     font-weight: 500;
 }
+
+.container{
+    width: 800px;
+    height:auto;
+    position: absolute;
+    left: 50%;
+}
+
+.slider-one{
+    margin: 50px auto;
+    padding: 10px 100px;
+    width: 85%;
+}
+
+.slide-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 10px 10%;
+}
+
+.slide-text{
+    background-color: var(--five-color);
+    padding: 15px 30px;
+    transform: translateX(10%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.slide-text p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.slide-text h3{
+    margin: 25px 0 5px;
+    color: var(--sec-color);
+}
+
+.slide-text small{
+    font-weight: 600;
+    color: #5d5d5d;
+    letter-spacing: 1px;
+}
+
+.slide-pic img{
+    width: 300px;
+    height: 100%;
+    border-radius: 5px;
+}
